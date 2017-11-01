@@ -21,38 +21,91 @@
             android:gravity="left"
             android:textColor="@color/colorAccent"
             android:text="user0"/>
-
-        <TextView
-            android:id="@+id/tName"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:text="Libro: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:textSize="30sp" />
+            <TextView
+                android:id="@+id/tName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:textSize="30sp" />
 
-            android:textColor="@color/colorPrimary"
-            android:textSize="30sp" />
+        </LinearLayout>
 
-        <TextView
-            android:id="@+id/tAutor"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="left"
+            android:orientation="horizontal">
 
-            android:textColor="@color/colorPrimary"
-            android:textSize="20sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Autor: "
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/tAutor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
 
-        <TextView
-            android:id="@+id/tPresta"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="left"
-            android:textColor="@color/colorPrimary"
-            android:textSize="20sp" />
-        <TextView
-            android:id="@+id/tPhone"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Usuario: "
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tPresta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="left"
-            android:textColor="@color/colorPrimary"
-            android:textSize="20sp" />
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Teléfono: "
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+
+
 
     </LinearLayout>
 
