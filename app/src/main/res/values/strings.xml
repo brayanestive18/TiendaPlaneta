@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Tienda Planeta</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="id">ID Libro</string>
+    <string name="name_book">Nombre del Libro</string>
+    <string name="name_autor">Nombre del Autor</string>
+    <string name="name_user">Nombre de quien lo presta</string>
+    <string name="phone">Número de teléfono</string>
+    <string name="Prestar">Prestar</string>
+    <string name="Actualizar">Actualizar</string>
+    <string name="read">Leer Información</string>
+    <string name="title">Tienda Planeta</string>
+    <string name="Borrar">Borrar</string>
+</resources>

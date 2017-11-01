@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.brayadiaz.tiendaplaneta.MainActivity">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/eNameBook"
+        android:textSize="20sp"
+        android:hint="@string/name_book"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/eNameAuthor"
+        android:textSize="20sp"
+        android:inputType="textEmailAddress"
+        android:hint="@string/name_autor"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/eNameUser"
+        android:textSize="20sp"
+        android:hint="@string/name_user"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ePhone"
+        android:inputType="number"
+        android:textSize="20sp"
+        android:hint="@string/phone"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Prestar"
+        android:onClick="onClick"
+        android:id="@+id/bPrestar"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/read"
+        android:onClick="onClick"
+        android:id="@+id/bRead"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Actualizar"
+        android:onClick="onClick"
+        android:id="@+id/bUpdate"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Borrar"
+        android:onClick="onClick"
+        android:id="@+id/bDelete"/>
+
+</LinearLayout>
